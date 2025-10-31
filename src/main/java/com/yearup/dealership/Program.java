@@ -1,17 +1,15 @@
 package com.yearup.dealership;
 /*
+public class Program {
+    public static void main(String[] args) {
+
+
+}*/
 
 public class Program {
 
     public static void main(String[] args) {
         UserInterface userInterface = new UserInterface();
         userInterface.display();
-    }
-}
-*/
-
-public class Program {
-    public static void main(String[] args) {
-
     }
 }

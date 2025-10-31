@@ -1,5 +1,4 @@
 package com.yearup.dealership;
-/*
 import java.util.Scanner;
 
 public class UserInterface {
@@ -40,8 +39,8 @@ public class UserInterface {
     }
 
 
-}*/
-
+}
+/*
 import java.util.Scanner;
 
 public class UserInterface {
@@ -74,7 +73,7 @@ public class UserInterface {
             case 7 -> processGetAllVehiclesRequest();
             case 8 -> processAddVehicleRequest();
             case 9 -> processRemoveVehicleRequest();
-            case 10 ->
+            //case 10 ->
             case 99 -> {
                 System.out.println("Exiting application.");
                 // This calls the DealershipFileManager to write the current dealership
@@ -144,4 +143,4 @@ public class UserInterface {
         System.out.println("10 - Sell/Lease a vehicle");
         System.out.println("99 - Quit");
     }
-}
+}*/
