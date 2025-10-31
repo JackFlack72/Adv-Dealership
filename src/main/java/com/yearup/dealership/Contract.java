@@ -1,12 +1,11 @@
 package com.yearup.dealership;
 
-public class Contract {
+public abstract class Contract {
     private String dateOfContract;
     private String customerName;
     private String customerEmail;
     private Vehicle vehicleSold;
-    private int totalPrice;
-    private int monthlyPayment;
+
 
     public Contract(String dateOfContract, String customerName, String customerEmail, Vehicle vehicleSold) {
         this.dateOfContract = dateOfContract;
@@ -39,11 +38,7 @@ public class Contract {
         this.customerEmail = customerEmail;
     }
 
-    public void getTotalPrice() {
+    public abstract double getTotalPrice();
 
-    }
-
-    public void getMonthlyPayment() {
-
-    }
+    public abstract double getMonthlyPayment();
 }

@@ -1,4 +1,5 @@
 package com.yearup.dealership;
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -6,11 +7,14 @@ public class UserInterface {
     private Scanner scanner = new Scanner(System.in);
 
     public void display() {
+        ContractDataManager contractDataManager = new ContractDataManager();
+
         System.out.println("Dealership App");
 
         DealershipFileManager dealershipFileManager = new DealershipFileManager();
         this.dealership = dealershipFileManager.getDealership();
 
+        Contract salesContract = new SalesContract(LocalDate.now(), "John Doe", "johndoe@example.com", this.dealership.getAllVehicles().set(0), 22000.00 * 0.05, 100.00, true);
 
         // Print all vehicles in the inventory
         System.out.println("Inventory for " + dealership.getAllVehicles().size() + " vehicles ");
