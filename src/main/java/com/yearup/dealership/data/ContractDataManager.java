@@ -1,4 +1,8 @@
-package com.yearup.dealership;
+package com.yearup.dealership.data;
+
+import com.yearup.dealership.model.contract.LeaseContract;
+import com.yearup.dealership.model.contract.SalesContract;
+import com.yearup.dealership.model.contract.Contract;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

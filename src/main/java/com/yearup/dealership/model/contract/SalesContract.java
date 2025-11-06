@@ -1,6 +1,8 @@
-package com.yearup.dealership;
+package com.yearup.dealership.model.contract;
 
-public class SalesContract extends Contract{
+import com.yearup.dealership.model.Vehicle;
+
+public class SalesContract extends Contract {
 /*
 • Sales Tax Amount (5%)
 • Recording Fee ($100)

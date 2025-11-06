@@ -1,4 +1,4 @@
-package com.yearup.dealership;
+package com.yearup.dealership.model;
 /*
 package com.yearup.dealership;
 

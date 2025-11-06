@@ -1,6 +1,8 @@
-package com.yearup.dealership;
+package com.yearup.dealership.model.contract;
 
-public class LeaseContract extends Contract{
+import com.yearup.dealership.model.Vehicle;
+
+public class LeaseContract extends Contract {
     private double expectedEndingValue;
     private double leasingFee;
 

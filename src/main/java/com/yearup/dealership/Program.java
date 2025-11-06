@@ -6,6 +6,8 @@ public class Program {
 
 }*/
 
+import com.yearup.dealership.console.UserInterface;
+
 public class Program {
 
     public static void main(String[] args) {

@@ -1,4 +1,11 @@
-package com.yearup.dealership;
+package com.yearup.dealership.console;
+import com.yearup.dealership.model.contract.Contract;
+import com.yearup.dealership.data.ContractDataManager;
+import com.yearup.dealership.model.contract.SalesContract;
+import com.yearup.dealership.model.Dealership;
+import com.yearup.dealership.model.Vehicle;
+import com.yearup.dealership.data.DealershipFileManager;
+
 import java.time.LocalDate;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.yearup.dealership;
+package com.yearup.dealership.data;
 /*
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -59,6 +59,9 @@ public class DealershipFileManager {
     }
 }
 */
+
+import com.yearup.dealership.model.Dealership;
+import com.yearup.dealership.model.Vehicle;
 
 public class DealershipFileManager {
 
